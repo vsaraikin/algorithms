@@ -20,10 +20,11 @@ https://www.coursera.org/specializations/algorithms?irclickid=WRcwHl22gxyPT1IyXU
 * [DSA in Python](./books/Michael%20T.%20Goodrich,%20Roberto%20Tamassia,%20Michael%20H.%20Goldwasser%20-%20Data%20Structures%20and%20Algorithms%20in%20Python-Wiley%20(2013).pdf)
 * [Introduction to Algorithms](./books/Thomas%20H.%20Cormen,%20Charles%20E.%20Leiserson,%20Ronald%20L.%20Rivest,%20Clifford%20Stein%20-%20Introduction%20to%20Algorithms-The%20MIT%20Press%20(2022).pdf)
 
-Plan:
+## Plan:
+todo: later it will be toc
 1. Time & Space Complexity.
 2. Basic DS:
-   1. Array
+   1. Array:
    2. Linked List
    3. Stack
    4. Queue
@@ -31,7 +32,7 @@ Plan:
    6. Graphs
    7. Hash
    8. Heap
-   9. Trees (Binary tree, Binary search tree, Trie, etc.)
+   9.  Trees (Binary tree, Binary search tree, Trie, etc.)
 3. Basic Algorithms:
    1. Searching Algorithm:
       1. Merge Sort
@@ -54,3 +55,21 @@ Plan:
 6. Exercises
 
  
+
+## Basic DS
+
+### Arrays
+
+Arrays hold values of the same type at contiguous memory locations.
+
+#### Terms:
+
+Subarray - [3, 6, 1] is subarray of [2, **3, 6, 1**, 5, 4] (contiguous elements). 
+
+Subsequence - [3, 1, 5] is a subsequence of [2, **3**, 6, **1**, **5**, 4] (noncontiguous elements).
+
+#### Techniques:
+Sliding window
+Two pointers
+Sorting the array
+Traversing from the right
