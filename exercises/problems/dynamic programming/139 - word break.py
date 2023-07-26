@@ -13,38 +13,7 @@ wordDict4 = ["aaaa","aaa"]
 
 class Solution:
     def wordBreak(self, target: str, wordDict: list[str]) -> bool:
-        wordSet = set(wordDict)
-        words = []
-        
-        s = ''
-         
-        for z in range(len(target)):
-            p = ''
-            for l in words:
-                p += l
-            if len(p) >= len(target):
-                break
-                    
-                
-            
-            s += target[z]
-            if s in wordSet:
-                # if there is a longer word, don't append
-                y = s
-                for k in range(z, len(target)):
-                    y += target[k]
-                    if y in wordSet:
-                        words.append(y)
-                # else
-                
-                words.append(s)
-                s = ''
-                
-        q = ''
-        for w in words:
-            q += w
-
-        return q == target    
+        ...
 
                 
     
