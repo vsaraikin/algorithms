@@ -8,7 +8,7 @@
 - [x] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 - [x] [Word Break Problem](https://leetcode.com/problems/word-break/)
 - [x] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
-- [ ] [House Robber](https://leetcode.com/problems/house-robber/)
+- [x] [House Robber](https://leetcode.com/problems/house-robber/)
 - [ ] [House Robber II](https://leetcode.com/problems/house-robber-ii/)
 - [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
 - [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
@@ -148,3 +148,7 @@ X = "AGGTAB"
 Y = "GXTXAYB"
 print(lcs(X, Y))  # Output: 4
 ```
+
+## References
+
+- [Playlist – Dynamic Programming, Tushar Roy](https://www.youtube.com/playlist?list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
