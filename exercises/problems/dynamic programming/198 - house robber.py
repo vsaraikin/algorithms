@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/house-robber/
+
 class Solution:
     def rob(self, nums: list[int]) -> int:
         n = len(nums)

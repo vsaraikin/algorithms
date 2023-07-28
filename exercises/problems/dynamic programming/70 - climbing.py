@@ -1,7 +1,4 @@
-n1 = 2
-n2 = 3
-n3 = 4
-
+# https://leetcode.com/problems/climbing-stairs/
 
 class Solution:
     
@@ -10,13 +7,10 @@ class Solution:
         for i in range(2, n + 1):
             ways[i] = ways[i-1] + ways[i-2]
         return ways[n]
-            
-                    
-        
         
         
 s = Solution()
-print(s.climbStairs(n1))
-print(s.climbStairs(n2))
-print(s.climbStairs(n3))
+assert 2 == s.climbStairs(2)
+assert 3 == s.climbStairs(3)
+assert 5 == s.climbStairs(4)
 
