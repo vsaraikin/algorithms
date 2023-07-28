@@ -1,21 +1,10 @@
-s1 = "leetcode"
-wordDict1 = ["leet","code"]
-
-s2 = "applepenapple"
-wordDict2 = ["apple","pen"]
-
-s3 = "catsandog"
-wordDict3 = ["cats","dog","sand","and","cat"]
-
-s4 = "aaaaaaa"
-wordDict4 = ["aaaa","aaa"]
-
+# https://leetcode.com/problems/word-break/
 
 class Solution:
     def wordBreak(self, target: str, wordDict: list[str]) -> bool:
         n = len(target)
         dp = [False] * (n + 1)
-        dp[0] = True
+        dp[0] = True # handle empty substring
         
         for i in range(1, n+1):
             for j in range(i):
@@ -25,11 +14,8 @@ class Solution:
         
         return dp[n]
 
-                
-    
 s = Solution()    
-assert True == s.wordBreak(s1, wordDict1)
-assert True == s.wordBreak(s2, wordDict2)
-assert False == s.wordBreak(s3, wordDict3)
-assert True == s.wordBreak(s4, wordDict4)
-
+assert True == s.wordBreak("leetcode", ["leet","code"])
+assert True == s.wordBreak("applepenapple", ["apple","pen"])
+assert False == s.wordBreak("catsandog", ["cats","dog","sand","and","cat"])
+assert True == s.wordBreak("aaaaaaa", ["aaaa","aaa"])
