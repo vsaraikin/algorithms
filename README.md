@@ -1,4 +1,4 @@
-# The Ultimate study guide for Data Structures & Algorithms.
+# The Ultimate Handbook for Data Structures & Algorithms
 
 ## References:
 * [Tech Interview Handbook — Cheatsheet](https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/)
