@@ -1,20 +1,24 @@
 # Dynamic Programming
 
+
+
 ## Problems
 
-- [x] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
-- [x] [Coin Change](https://leetcode.com/problems/coin-change/)
-- [x] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
-- [x] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
-- [x] [Word Break Problem](https://leetcode.com/problems/word-break/)
-- [x] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
-- [x] [House Robber](https://leetcode.com/problems/house-robber/)
-- [x] [House Robber II](https://leetcode.com/problems/house-robber-ii/)
-- [x] [Decode Ways](https://leetcode.com/problems/decode-ways/)
-- [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
-- [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
-- [ ] [Edit Distance](https://leetcode.com/problems/edit-distance/)
-- [ ] [Minimum Score Triangulation of Polygon (Matrix Chain Multiplication Problem)](https://leetcode.com/problems/minimum-score-triangulation-of-polygon)
+| Name/Link                                                                                                      | Attempts | Solved on My Own | Figured out algorithm | LC Premium |
+| -------------------------------------------------------------------------------------------------------------- | -------- | ---------------- | --------------------- | ---------- |
+| [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                                              | 1        | -                | -                     | No         |
+| [Coin Change](https://leetcode.com/problems/coin-change/)                                                      | 1        | -                | -                     | No         |
+| [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)                | 1        | -                | -                     | No         |
+| [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                        | 1        | -                | -                     | No         |
+| [Word Break Problem](https://leetcode.com/problems/word-break/)                                                | 1        | -                | -                     | No         |
+| [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)                                           | 1        | -                | -                     | No         |
+| [House Robber](https://leetcode.com/problems/house-robber/)                                                    | 1        | -                | -                     | No         |
+| [House Robber II](https://leetcode.com/problems/house-robber-ii/)                                              | 1        | -                | -                     | No         |
+| [Decode Ways](https://leetcode.com/problems/decode-ways/)                                                      | 1        | -                | -                     | No         |
+| [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                    | 1        | +                | +                     | No         |
+| [Jump Game](https://leetcode.com/problems/jump-game/)                                                          | -        | -                | -                     | No         |
+| [Edit Distance](https://leetcode.com/problems/edit-distance/)                                                  | -        | -                | -                     | No         |
+| [Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon) | -        | -                | -                     | No         |
 
 ## Approaches
 
