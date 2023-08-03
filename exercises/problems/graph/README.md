@@ -3,16 +3,16 @@
 ## Problems
 
 
-| Name/Link                                                                                                                                | LC Premium | Attempts | Solved on My Own | Figured out Algorithm |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | ---------- | -------- | ---------------- | --------------------- |
-| [Clone Graph](https://leetcode.com/problems/clone-graph/)                                                                                | No         | 1        | No              | Yes                   |
-| [Course Schedule](https://leetcode.com/problems/course-schedule/)                                                                        | No         | -        | -                | -                     |
-| [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                                | No         | -        | -                | -                     |
-| [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                    | No         | -        | -                | -                     |
-| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)                                              | No         | -        | -                | -                     |
-| [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)                                                                      | Yes        | -        | -                | -                     |
-| [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)                                                                      | Yes        | -        | -                | -                     |
-| [N of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | Yes        | -        | -                | -                     |
+| Name/Link                                                                                                                            | LC Premium | Attempts | Solved on My Own | Figured out Algorithm |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ---------- | -------- | ---------------- | --------------------- |
+| [Clone Graph](https://leetcode.com/problems/clone-graph/)                                                                            | No         | 1        | No               | Yes                   |
+| [Course Schedule](https://leetcode.com/problems/course-schedule/)                                                                    | No         | 1        | No               | Yes                   |
+| [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                            | No         | -        | -                | -                     |
+| [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                | No         | -        | -                | -                     |
+| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)                                          | No         | -        | -                | -                     |
+| [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)                                                                  | Yes        | -        | -                | -                     |
+| [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)                                                                  | Yes        | -        | -                | -                     |
+| [N of Conn. Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | Yes        | -        | -                | -                     |
 
 
 
