@@ -7,8 +7,8 @@
 | ------------------------------------------------------------------------------------------------------------------------------------ | ---------- | -------- | ---------------- | --------------------- |
 | [Clone Graph](https://leetcode.com/problems/clone-graph/)                                                                            | No         | 1        | No               | Yes                   |
 | [Course Schedule](https://leetcode.com/problems/course-schedule/)                                                                    | No         | 1        | No               | Yes                   |
-| [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                            | No         | -        | -                | -                     |
-| [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                | No         | -        | -                | -                     |
+| [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                            | No         | 1        | No               | Yes                   |
+| [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                | No         | 1        | No               | Yes                   |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)                                          | No         | -        | -                | -                     |
 | [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)                                                                  | Yes        | -        | -                | -                     |
 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)                                                                  | Yes        | -        | -                | -                     |
