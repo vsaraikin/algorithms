@@ -15,14 +15,140 @@
 | [N of Conn. Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | Yes        | -        | -                | -                     |
 
 
+## Representation of graphs
 
-## Theory 
+### Adjacency matrix
 
-1. Representation of graphs.
-2. Types of graphs
-3. 
+```python
+adj_matrix = [
+    [0, 1, 1, 0],
+    [1, 0, 1, 1],
+    [1, 1, 0, 0],
+    [0, 1, 0, 0]
+]
+```
 
-## Aproaches
+### Adjacency matrix (weighted)
+
+```python
+adj_matrix = [
+    [0, 2.5, 1, 0],
+    [2.5, 0, 4, 3],
+    [1, 4, 0, 0],
+    [0, 3, 0, 0]
+]
+```
+
+### Adjacency list
+
+```python
+adj_list = {
+    0: [1, 2],
+    1: [0, 2, 3],
+    2: [0, 1],
+    3: [1]
+}
+```
+
+### Adjacency list (weighted)
+
+```python
+weighted_adj_list = {
+    0: [(1, 2.5), (2, 1)],
+    1: [(0, 2.5), (2, 4), (3, 3)],
+    2: [(0, 1), (1, 4)],
+    3: [(1, 3)]
+}
+```
+
+## Types of graphs
+
+### Infinite/Finite
+
+The graph $G=(V, E)$ is called a finite graph if the number of vertices and edges in the graph is limited in number
+
+![Finite graph](static/limited_graph.png)
+
+<br>
+
+The graph $G=(V, E)$ is called a finite graph if the number of vertices and edges in the graph is interminable.
+
+![Infinite graph](static/inf_graph.png)
+
+### Pseudo
+
+If a graph $G = (V, E)$ contains a self-loop besides other edges, it is a pseudograph.
+
+![Pseudo graph](static/pseudo-graph.webp)
+
+### Multigraph
+
+If there are numerous edges between a pair of vertices in a graph G= (V, E), the graph is referred to as a multigraph. There are no self-loops in a Multigraph.
+
+![Multigraph](static/multi-graph.webp)
+
+
+### Directed/Undirected
+
+A directed graph also referred to as a digraph, is a set of nodes connected by edges, each with a direction.
+
+![Directed graph](./static/directed-graph.webp)
+
+An undirected graph comprises a set of nodes and links connecting them. The order of the two connected vertices is irrelevant and has no direction. You can form an undirected graph with a finite number of vertices and edges.
+
+![Undirected graph](./static/undirected-graph.webp)
+
+>Undirected graphs will have a symmetric adjacency matrix (meaning Aij = Aji).
+
+### Complete
+
+If a graph $G = (V, E)$ is also a simple graph, it is complete. Using the edges, with n number of vertices must be connected. It's also known as a full graph because each vertex's degree must be $n-1$.
+
+![Complete graph](./static/complete-graph.webp)
+
+### Regular
+
+If a graph G= (V, E) is a simple graph with the same degree at each vertex, it is a regular graph. As a result, every whole graph is a regular graph.
+
+![Regular graph](./static/regular-graph.webp)
+
+### Cyclic/Acyclic
+
+If a graph contains at least one graph cycle, it is considered to be cyclic.
+
+![Cyclic graph](static/cyclic-graph.webp)
+
+<br>
+
+When there are no cycles in a graph, it is called an acyclic graph.
+
+![Acyclic graph](static/acyclic-graph.webp)
+
+### Connected/Disconnected
+
+If there is a path between one vertex of a graph data structure and any other vertex, the graph is connected.
+
+![Connected graph](static/connected-graph.webp)
+
+<br>
+
+When there is no edge linking the vertices, you refer to the null graph as a disconnected graph.
+
+![Disconnected graph](static/diconnected-graph.webp)
+
+### Euler Graph
+
+A connected graph G is called an Euler graph, if there is a closed trail which includes every edge of the graph G.
+
+![Euler graph](static/220px-Labelled_Eulergraph.svg.png)
+
+### Axiom about Maximum Number of Edges
+In a graph of order $n$:
+- the maximum degree of each vertex is $n − 1$ (or $n + 1$ if loops are allowed, because a loop contributes 2 to the degree)
+- the maximum number of edges is $n(n − 1)/2$ (or $n(n + 1)/2$ if loops are allowed).
+
+
+## Common Algorithms
 1. DFS:
 ```python
 def dfs_iterative(graph: dict[str], start: str):
