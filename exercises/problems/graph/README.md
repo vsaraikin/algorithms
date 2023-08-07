@@ -5,15 +5,21 @@
 
 | Name/Link                                                                                                                            | LC Premium | Attempts | Solved on My Own | Figured out Algorithm |
 | ------------------------------------------------------------------------------------------------------------------------------------ | ---------- | -------- | ---------------- | --------------------- |
+| [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                | No         | -        | -                | -                     |
 | [Clone Graph](https://leetcode.com/problems/clone-graph/)                                                                            | No         | 1        | No               | Yes                   |
 | [Course Schedule](https://leetcode.com/problems/course-schedule/)                                                                    | No         | 1        | No               | Yes                   |
+| [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                                                              | No         | -        | -                | -                     |
 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                            | No         | 1        | No               | Yes                   |
 | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                | No         | 1        | No               | Yes                   |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)                                          | No         | 1        | Yes              | Yes                   |
+| [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)                                                              | No         | 1        | No               | Yes                   |
+| [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)                                                              | No         | -        | -                | -                     |
+| [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)                                                                    | No         | -        | -                | -                     |
+| [Redundant Connection](https://leetcode.com/problems/redundant-connection/)                                                          | No         | -        | -                | -                     |
+| [Word Ladder](https://leetcode.com/problems/word-ladder/)                                                                            | No         | -        | -                | -                     |
 | [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)                                                                  | Yes        | -        | -                | -                     |
 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)                                                                  | Yes        | -        | -                | -                     |
 | [N of Conn. Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | Yes        | -        | -                | -                     |
-
 
 ## Representation of graphs
 
@@ -180,7 +186,6 @@ def dfs_recursive(graph: dict[str], current_node: str, visited=None):
 
 2. BFS
 3. Dijsktra
-4. 
 
 
 ## Common problems
