@@ -1,7 +1,8 @@
 # Exercises and Types of Problems
 
 
-* [Array](./array/README.md)
+* [Array & Hashing](./array/README.md)
+* [Stack](./stack/README.md)
 * [Binary](./binary/README.md)
 * [Dynamic Programming](./dynamic%20programming/README.md)
 * [Graph](./graph/README.md)
