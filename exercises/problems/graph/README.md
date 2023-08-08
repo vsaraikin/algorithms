@@ -155,7 +155,10 @@ In a graph of order $n$:
 
 
 ## Common Algorithms
-1. DFS:
+### DFS
+   
+Done with stack.
+
 ```python
 def dfs_iterative(graph: dict[str], start: str):
     visited = set()
@@ -184,8 +187,27 @@ def dfs_recursive(graph: dict[str], current_node: str, visited=None):
             dfs_recursive(graph, neighbour, visited)
 ```
 
-2. BFS
-3. Dijsktra
+### BFS
+
+Done with deque/queue.
+
+```python
+def bfs(graph, start_node):
+    visited = set()          
+    queue = deque([start_node]) 
+
+    while queue:
+        current_node = queue.popleft()  
+        if current_node not in visited:
+            print(current_node) 
+            visited.add(current_node)   
+
+            for neighbor in graph[current_node]:
+                if neighbor not in visited:
+                    queue.append(neighbor)
+```       
+
+### Dijsktra
 
 
 ## Common problems
