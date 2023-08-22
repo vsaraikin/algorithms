@@ -21,7 +21,7 @@
 | [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)                                                                  | Yes        | -        | -                | -                     |
 | [N of Conn. Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | Yes        | -        | -                | -                     |
 
-## Representation of graphs
+## Data Stcruture: Representation of graphs
 
 ### Adjacency matrix
 
@@ -67,7 +67,7 @@ weighted_adj_list = {
 }
 ```
 
-## Types of graphs
+## Theory: Types of graphs
 
 ### Infinite/Finite
 
@@ -210,4 +210,4 @@ def bfs(graph, start_node):
 ### Dijsktra
 
 
-## Common problems
+## Common Problems
