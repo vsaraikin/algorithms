@@ -1,6 +1,6 @@
 # Dynamic Programming
 
-
+> ADD MatrixChain-Product Problem
 
 ## Problems
 
@@ -26,6 +26,23 @@ There are two approaches to formulate a dynamic programming solution:
 
 1. Top-Down Approach:  This approach follows the memoization technique. It consists of recursion and caching.
 2. Bottom-Up Approach: This approach uses the tabulation technique to implement the dynamic programming solution. In this approach, iteration replaces recursion.
+
+
+   1. Analyzing Recursive Algorithms.
+   Recurrence relation of recursive algorithms. 
+   The recurrence relation for the time complexity of some problems are given below:
+
+   * Fibonacci Number
+   T(N) = T(N-1) + T(N-2) </br>
+   Base Conditions: T(0) = 0 and T(1) = 1 \\
+
+   * Binary Search
+   T(N) = T(N/2) + C 
+   Base Condition: T(1) = 1 \\
+
+   * Merge Sort
+   T(N) = 2 T(N/2) + CN
+   Base Condition: T(1) = 1
 
 ## Common Problems
 

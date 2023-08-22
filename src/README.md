@@ -27,3 +27,7 @@
 3. Go back the day after and resolve problem.
 
 The majority of the tasks are taken from [Blind 75](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU) and [Neetcode 150](https://neetcode.io/practice)
+
+## Theory
+
+Time & Space Complexity
