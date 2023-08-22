@@ -10,5 +10,6 @@
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                             | 1        | Yes              | Yes                   | -          |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)           | 1        | Yes              | Yes                   | -          |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 1        | No               | No                    | -          |
+| [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                 |          |                  |                       |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 1        | No               | Yes                   | No         |
 | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)       | -        | -                | -                     | Yes        |
