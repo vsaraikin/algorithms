@@ -3,6 +3,7 @@
 * [Array & Hashing](./array/README.md)
 * [Two Pointers](./two%20pointers/README.md)
 * [Sliding Window](./sliding%20window/README.md)
+* [Divide & Conquer](./divide%20&%20conquer/README.md)
 * [Stack](./stack/README.md)
 * [Binary Search](./binary%20search/README.md)
 * [Linked List](./linked%20list/README.md)
@@ -20,6 +21,7 @@
   
 
 ## Approach to a problem
+
 1. If I cannot solve problem myself in 20 mins, go the hint.
 2. If hint did not help in 10 mins, watch solution.
 3. Go back the day after and resolve problem.
