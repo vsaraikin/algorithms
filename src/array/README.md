@@ -13,3 +13,13 @@
 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                 |          |                  |                       |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 1        | No               | Yes                   | No         |
 | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)       | -        | -                | -                     | Yes        |
+
+
+
+Arrays hold values of the same type at contiguous memory locations.
+
+#### Terms:
+
+Subarray - [3, 6, 1] is subarray of [2, **3, 6, 1**, 5, 4] (contiguous elements). 
+
+Subsequence - [3, 1, 5] is a subsequence of [2, **3**, 6, **1**, **5**, 4] (noncontiguous elements).
