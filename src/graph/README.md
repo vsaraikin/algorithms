@@ -11,7 +11,6 @@
 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                                                              | No         | -        | -                | -                     |
 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                            | No         | 1        | No               | Yes                   |
 | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                | No         | 1        | No               | Yes                   |
-| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)                                          | No         | 1        | Yes              | Yes                   |
 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)                                                              | No         | 1        | No               | Yes                   |
 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)                                                              | No         | -        | -                | -                     |
 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)                                                                    | No         | -        | -                | -                     |
