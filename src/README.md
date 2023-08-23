@@ -74,3 +74,31 @@ for row in matrix:
 
 ### Space Complexity
 
+Typically from the examples in the Internet Time & Space complexity would look the same. E.g. merge sort time & space complexity – $O(n\space logn)$. Below are examples to catch the difference.
+
+**Solution 1: Naive Recursive Approach**
+
+```python
+def fib_naive(n):
+    if n <= 1:
+        return n
+    return fib_naive(n - 1) + fib_naive(n - 2)
+```
+- Time Complexity: Exponential $(O(2^n))$ as it recalculates the same Fibonacci numbers multiple times.
+- Space Complexity: Linear $(O(n))$ due to the call stack used for recursion.
+
+**Solution 2: Dynamic Programming Approach with Caching**
+
+```python
+def fib_dynamic(n, cache={}):
+    if n in cache:
+        return cache[n]
+    if n <= 1:
+        return n
+    result = fib_dynamic(n - 1, cache) + fib_dynamic(n - 2, cache)
+    cache[n] = result
+    return result
+```
+
+- Time Complexity: Linear $(O(n))$ as it computes each Fibonacci number once and stores it in the cache.
+- Space Complexity: Linear $(O(n))$ due to the cache that stores previously calculated Fibonacci numbers.
