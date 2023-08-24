@@ -1,5 +1,7 @@
 # Architecture of project
 
+TODO: Make a dashboard
+
   
 src/:
     - ..
@@ -13,15 +15,16 @@ src/:
 ## Problems
 
 Table:
-- Task
-- LC Premium
-- Level
-- Solution
+- Name
+- LC Premium: "-" / ✅
+- Level:
+  - Easy / Medium / Hard
+- Solution: (link to file)
 - Status:
-  - Unsolved
-  - Solved
-  - Reviewed and did not solve
-  - Reviewed and solved
+  - Unsolved "-"
+  - Solved ✅
+  - Reviewed and did not solve [Optional]
+  - Reviewed and solved [Optional]
 
 ## Implementation of DS
 
@@ -32,3 +35,5 @@ Table:
 ## Common Algorithms
 
 ## Common Problems
+
+## TIme & Space Complexity
