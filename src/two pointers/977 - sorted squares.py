@@ -1,5 +1,6 @@
 class Solution:
     def sortedSquares(self, nums: list[int]) -> list[int]:
+        # My solution
         start = 0
         n = len(nums)
         end = n - 1
@@ -15,6 +16,16 @@ class Solution:
                 end -= 1
             idx -= 1
             
+        return arr
+    
+    def sortedSquares(self, nums: list[int]) -> list[int]:
+        arr = []
+        
+        for i in range(len(nums)):
+            arr.append(nums[i] ** 2)
+        
+        
+        arr.sort()
         return arr
         
 s = Solution()
