@@ -7,7 +7,7 @@
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)                    | Easy   | [Python](./125%20-%20valid%20palindrome.py) |            |
 | [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)         | Medium | [Python](./167%20-%20two%20sum%20ii.py)     |            |
 | [3Sum](https://leetcode.com/problems/3sum)                                            | Medium | [Python](./15%20-%203sum.py)                |            |
-| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |        | [Python]                                    |            |
+| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |        | [Python](./11%20-%20container.py) <br> [Go](../../companies/yandex/11.go)                                  |            |
 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)             |        | [Python]                                    |            |
 
 
