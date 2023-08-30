@@ -1,6 +1,3 @@
-prices = [7,1,5,3,6,4]
-prices2 = [7,6,4,3,1]
-
 class Solution:
     def maxProfit(self, prices: list[int]) -> int:
         profit = 0
@@ -15,5 +12,5 @@ class Solution:
         return int(profit)
     
 s = Solution()
-print(s.maxProfit(prices))
-print(s.maxProfit(prices2))
+assert 5 == s.maxProfit([7,1,5,3,6,4])
+assert 0 == s.maxProfit([7,6,4,3,1])
