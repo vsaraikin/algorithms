@@ -10,32 +10,48 @@
 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)                                             | Hard   | [Python](./76.py)  |            |
 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                                 | Hard   | [Python]           |            |
 
+
+## Theory
+
+A sliding window algorithm is a technique used for efficiently processing arrays or lists by maintaining a "window" of elements as it moves through the data. This window is typically defined by two pointers: the left and right pointers. 
+
+## Common Problems
+
+Typically the following terms mentioned in the task:
+- Array
+- String
+- Sub Array
+- Sub String
+- Largest Sum
+- Maximum Sum
+- Minimum Sum
+
+
 ## Template
 
-```cpp
-int findSubstring(string s){
-        vector<int> map(128,0);
-        int counter; // check whether the substring is valid
-        int begin=0, end=0; //two pointers, one point to tail and one  head
-        int d; //the length of substring
+```python
+def sliding_window_problem(s):
+    # Initialize the left and right pointers
+    left, right = 0, 0
 
-        for() { /* initialize the hash map here */ }
+    # Initialize any additional variables or data structures needed
 
-        while(end<s.size()){
+    # Initialize the result or answer variable
+    result = []
 
-            if(map[s[end++]]-- ?){  /* modify counter here */ }
+    while right < len(s):
+        # Expand the window by moving the right pointer to the right
+        # Update any data or variables as needed
 
-            while(/* counter condition */){ 
-                 
-                 /* update d here if finding minimum*/
+        # Check if the current window satisfies the problem criteria
+        while window_satisfies_criteria:
+            # Update the result or answer based on the current window
 
-                //increase begin to make it invalid/valid again
-                
-                if(map[s[begin++]]++ ?){ /*modify counter here*/ }
-            }  
+            # Contract the window by moving the left pointer to the right
+            # Update any data or variables as needed
 
-            /* update d here if finding maximum*/
-        }
-        return d;
-  }
+        # Continue expanding the window by moving the right pointer to the right
+        # Update any data or variables as needed
+
+    return result
 ```
