@@ -26,7 +26,10 @@ Table:
   - Reviewed and did not solve [Optional]
   - Reviewed and solved [Optional]
 
-## Implementation of DS
+
+# Structure for DS
+
+## Implementation of DS 
 
 ## Representation of DS
 
@@ -36,4 +39,15 @@ Table:
 
 ## Common Problems
 
-## TIme & Space Complexity
+## Time & Space Complexity 
+
+
+# Structure for Algo
+
+## Theory
+
+## Common Problems
+
+## Time & Space Complexity [Optional]
+
+## Template
