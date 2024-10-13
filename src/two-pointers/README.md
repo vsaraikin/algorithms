@@ -21,6 +21,7 @@
 ## Common Algorithms
 
 ## Common Problems
+
 1. Reverse array
 2. Sorted squares
 
