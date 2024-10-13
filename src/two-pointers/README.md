@@ -9,20 +9,3 @@
 | [3Sum](https://leetcode.com/problems/3sum)                                            | Medium | [Python](./15%20-%203sum.py)                                              |            |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [Python](./11%20-%20container.py) <br> [Go](../../companies/yandex/11.go) |            |
 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)             | Hard   | [Python](./42%20-%20tripping%20rain%20water.py)                           |            |
-
-
-
-## Implementation of DS
-
-## Representation of DS
-
-## Theory
-
-## Common Algorithms
-
-## Common Problems
-
-1. Reverse array
-2. Sorted squares
-
-## TIme & Space Complexity
