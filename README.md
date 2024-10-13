@@ -4,8 +4,7 @@
 - [`books/`](./books/README.md) – to reference specific things
 - [`companies/`](./companies/README.md) – tasks given by a specific firm
 
-
-## Path for studying:
+## Path for studying
 
 1. Take a particular type of problem from [`src/`](./src/README.md).
 2. Grind all problems from section.
@@ -24,3 +23,15 @@
 * [MIT Lectures 2011 — DSA](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/video_galleries/lecture-videos/)
 * [Neetcode YT Channel](https://www.youtube.com/@NeetCode)
 
+## Misc
+
+### Interesting ways to speed up C++
+
+```c++
+int speedUp = [] {
+    std::ios::sync_with_stdio(0);
+    std::cin.tie(0);
+    return 0;
+}();
+
+```

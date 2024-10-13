@@ -1,5 +1,4 @@
 class Solution:
-    # My solution
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         nums.sort(reverse=False)
         
