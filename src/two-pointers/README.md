@@ -1,11 +1,11 @@
 # Two pointers
 
-| Name                                                                                  | Level  | Solution                                                                  | LC Premium |
-| ------------------------------------------------------------------------------------- | ------ | ------------------------------------------------------------------------- | ---------- |
-| [Reverse String](https://leetcode.com/problems/reverse-string/)                       | Easy   | [Python](./344%20-%20reverse%20string.py)                                 |            |
-| [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Easy   | [Python](./977%20-%20sorted%20squares.py)                                 |            |
-| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)                    | Easy   | [Python](./125%20-%20valid%20palindrome.py)                               |            |
-| [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)         | Medium | [Python](./167%20-%20two%20sum%20ii.py)                                   |            |
-| [3Sum](https://leetcode.com/problems/3sum)                                            | Medium | [Python](./15%20-%203sum.py)                                              |            |
-| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [Python](./11%20-%20container.py) <br> [Go](../../companies/yandex/11.go) |            |
-| [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)             | Hard   | [Python](./42%20-%20tripping%20rain%20water.py)                           |            |
+| Name                                                                                  | Level  | Python                    | C++                  |
+|---------------------------------------------------------------------------------------|--------|---------------------------|----------------------|
+| [Reverse String](https://leetcode.com/problems/reverse-string/)                       | Easy   | [Python](./python/344.py) | [C++](./cpp/344.cpp) |
+| [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Easy   | [Python](./python/977.py) | [C++](./cpp/977.cpp) |
+| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome)                    | Easy   | [Python](./python/125.py) | [C++](./cpp/125.cpp) |
+| [Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)         | Medium | [Python](./python/167.py) | [C++](./cpp/167.cpp) |
+| [3Sum](https://leetcode.com/problems/3sum)                                            | Medium | [Python](./python/15.py)  | [C++](./cpp/15.cpp)  |
+| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | [Python](./python/11.py)  | [C++](./cpp/11.cpp)  |
+| [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)             | Hard   | [Python](./python/42.py)  | [C++](./cpp/42.cpp)  |
