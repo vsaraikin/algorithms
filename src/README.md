@@ -3,7 +3,7 @@
 * [Array & Hashing](./array/README.md)
 * [Two Pointers](./two%20pointers/README.md)
 * [Sliding Window](./sliding%20window/README.md)
-* [Divide & Conquer](./divide%20&%20conquer/README.md)
+* [Divide & Conquer](./divide%20&%20conquer/README.md) // нужен ли вообще этот блок?
 * [Stack](./stack/README.md)
 * [Binary Search](./binary%20search/README.md)
 * [Linked List](./linked%20list/README.md)
