@@ -13,10 +13,9 @@
 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                 | Medium | [Python](./python/36.py)  | [C++](./cpp/36.cpp)  |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [Python](./python/128.py) | [C++](./cpp/128.cpp) |
 
-
 Arrays hold values of the same type at contiguous memory locations.
 
-### Terms:
+### Terms
 
 Subarray - [3, 6, 1] is subarray of [2, **3, 6, 1**, 5, 4] (contiguous elements). 
 

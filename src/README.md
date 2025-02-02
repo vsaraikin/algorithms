@@ -1,23 +1,28 @@
 # Exercises and Types of Problems
 
-* [Array & Hashing](./array/README.md)
-* [Two Pointers](./two%20pointers/README.md)
-* [Sliding Window](./sliding%20window/README.md)
-* [Divide & Conquer](./divide%20&%20conquer/README.md) // нужен ли вообще этот блок?
-* [Stack](./stack/README.md)
-* [Binary Search](./binary%20search/README.md)
-* [Linked List](./linked%20list/README.md)
-* [Trees](./tree/README.md)
-* [Tries](./tries/README.md)
-* [Heap / PQ](./heap%20&%20pq/README.md)
-* [Backtracking](./backtracking/README.md)
-* [Graph](./graph/README.md)
-* [Advanced Graph](./advanced%20graphs/README.md)
-* [Dynamic Programming](./dynamic%20programming/README.md)
-* [Greedy](./greedy/README.md)
-* [Intervals](./intervals/README.md)
-* [Math & Geometry](./math/README.md)
-* [Binary](./binary/README.md)
+- [Array & Hashing](./array/README.md)
+- [Two Pointers](./two-pointers/README.md)
+- [Sliding Window](./sliding-window/README.md)
+- [Divide & Conquer](./divide%20&%20conquer/README.md) // нужен ли вообще этот блок?
+- [Stack](./stack/README.md)
+- [Binary Search](./binary%20search/README.md)
+- [Linked List](./linked%20list/README.md)
+- [Trees](./tree/README.md)
+- [Tries](./tries/README.md)
+- [Heap / PQ](./heap%20&%20pq/README.md)
+- [Backtracking](./backtracking/README.md)
+- [Graph](./graph/README.md)
+- [Advanced Graph](./advanced%20graphs/README.md)
+- [Dynamic Programming](./dynamic%20programming/README.md)
+- [Greedy](./greedy/README.md)
+- [Intervals](./intervals/README.md)
+- [Math & Geometry](./math/README.md)
+- [Binary](./binary/README.md)
+
+## Misc
+
+- Merkle Tree
+- Trie
 
 ## Approach to a problem
 
@@ -31,7 +36,7 @@ The majority of the tasks are taken from [Blind 75](https://www.teamblind.com/po
 
 ### Time complexity
 
-* $O(1)$
+- $O(1)$
 
     ```python
     l = [1, 2, 3, 4, 5]
@@ -39,7 +44,7 @@ The majority of the tasks are taken from [Blind 75](https://www.teamblind.com/po
         print(i)
     ```
 
-* $O(log\space n)$
+- $O(log\space n)$
 
     ```python
     # Binary recursive search
@@ -60,7 +65,7 @@ The majority of the tasks are taken from [Blind 75](https://www.teamblind.com/po
         return -1
     ```
 
-* $O(N)$
+- $O(N)$
 
     ```python
     l = [1, 2, 3, 4, 5]
@@ -69,7 +74,7 @@ The majority of the tasks are taken from [Blind 75](https://www.teamblind.com/po
         print(i)
     ```
 
-* $O(N^2)$
+- $O(N^2)$
 
     ```python
     n = 5
@@ -92,8 +97,8 @@ def fib_naive(n):
     return fib_naive(n - 1) + fib_naive(n - 2)
 ```
 
-* Time Complexity: Exponential $(O(2^n))$ as it recalculates the same Fibonacci numbers multiple times.
-* Space Complexity: Linear $(O(n))$ due to the call stack used for recursion.
+- Time Complexity: Exponential $(O(2^n))$ as it recalculates the same Fibonacci numbers multiple times.
+- Space Complexity: Linear $(O(n))$ due to the call stack used for recursion.
 
 ### Solution 2: Dynamic Programming Approach with Caching
 
@@ -108,5 +113,5 @@ def fib_dynamic(n, cache={}):
     return result
 ```
 
-* Time Complexity: Linear $(O(n))$ as it computes each Fibonacci number once and stores it in the cache.
-* Space Complexity: Linear $(O(n))$ due to the cache that stores previously calculated Fibonacci numbers.
+- Time Complexity: Linear $(O(n))$ as it computes each Fibonacci number once and stores it in the cache.
+- Space Complexity: Linear $(O(n))$ due to the cache that stores previously calculated Fibonacci numbers.
