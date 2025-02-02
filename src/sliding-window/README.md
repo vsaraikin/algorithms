@@ -12,19 +12,7 @@
 
 ## Theory
 
-A sliding window algorithm is a technique used for efficiently processing arrays or lists by maintaining a "window" of elements as it moves through the data. This window is typically defined by two pointers: the left and right pointers. 
-
-## Common Problems
-
-Typically the following terms mentioned in the task:
-- Array
-- String
-- Sub Array
-- Sub String
-- Largest Sum
-- Maximum Sum
-- Minimum Sum
-
+A sliding window algorithm is a technique used for efficiently processing arrays or lists by maintaining a "window" of elements as it moves through the data. This window is typically defined by two pointers: the left and right pointers.
 
 ## Template
 

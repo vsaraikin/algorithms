@@ -13,15 +13,15 @@
 
 ## References
 
-* [Tech Interview Handbook — Cheatsheet](https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/)
-* [enjoyalgorithms — Guide to DSA](https://enjoyalgorithms.com/blog/step-by-step-guidance-to-master-data-structure-and-algorithms-for-coding-interview)
-* [DSA Tutorial](https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/)
-* [Two Pointers Exercises](https://towardsdatascience.com/two-pointer-approach-python-code-f3986b602640)
+- [Tech Interview Handbook — Cheatsheet](https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/)
+- [enjoyalgorithms — Guide to DSA](https://enjoyalgorithms.com/blog/step-by-step-guidance-to-master-data-structure-and-algorithms-for-coding-interview)
+- [DSA Tutorial](https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/)
+- [Two Pointers Exercises](https://towardsdatascience.com/two-pointer-approach-python-code-f3986b602640)
 
 ## Videos
 
-* [MIT Lectures 2011 — DSA](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/video_galleries/lecture-videos/)
-* [Neetcode YT Channel](https://www.youtube.com/@NeetCode)
+- [MIT Lectures 2011 — DSA](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/video_galleries/lecture-videos/)
+- [Neetcode YT Channel](https://www.youtube.com/@NeetCode)
 
 ## Misc
 
@@ -38,3 +38,7 @@ static const bool Booster = []() {
     return true;
 }();
 ```
+
+todo: implement
+
+https://www.youtube.com/watch?v=NiXGUuCfqoU
