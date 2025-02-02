@@ -4,7 +4,7 @@
 |---------------------------------------------------------------------------------------------------------------------------------|--------|---------------------------|----------------------|
 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)                               | Easy   | [Python](./python/121.py) | [C++](./cpp/121.cpp) |
 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [Python](./python/3.py)   | [C++](./cpp/3.cpp)   |
-<!-- | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)               | Medium | [Python](./python/424.py) | [C++](./cpp/424.cpp) | -->
+| [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)               | Medium | [Python](./python/424.py) | [C++](./cpp/424.cpp) |
 <!-- | [Permutation in String](https://leetcode.com/problems/permutation-in-string/)                                                   | Medium | [Python](./python/567.py) | [C++](./cpp/567.cpp) | -->
 <!-- | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)                                           | Medium | [Python](./python/209.py) | [C++](./cpp/209.cpp) | -->
 <!-- | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)                                             | Hard   | [Python](./python/76.py)  |                      | -->

@@ -1,9 +1,10 @@
 # Exercises and Types of Problems
 
+## Neetcode 150
+
 - [Array & Hashing](./array/README.md)
 - [Two Pointers](./two-pointers/README.md)
 - [Sliding Window](./sliding-window/README.md)
-- [Divide & Conquer](./divide%20&%20conquer/README.md) // нужен ли вообще этот блок?
 - [Stack](./stack/README.md)
 - [Binary Search](./binary%20search/README.md)
 - [Linked List](./linked%20list/README.md)
@@ -21,6 +22,7 @@
 
 ## Misc
 
+- [Divide & Conquer](./divide%20&%20conquer/README.md)
 - Merkle Tree
 - Trie
 
