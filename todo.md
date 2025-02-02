@@ -1,4 +1,7 @@
 # To-do 
-1. Add animations of algorithms  
-2. Добавить легкие литкод 
-3. Add new column – easyness
+
+- [ ] Add animations of algorithms
+- [ ] Add new col C++
+- [ ] Recheck all the solutions if they correspond _**optimal**_ strategy
+- [ ] Make it in 23 standard
+- [ ] Lock-free data structure
