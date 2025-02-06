@@ -1,37 +1,38 @@
 class Solution:
+    # O(m + n)
     def minWindow(self, s: str, t: str) -> str:
         char_count_t = {}
         
         for char in t:
             char_count_t[char] = char_count_t.get(char, 0) + 1
         
-        left = 0
-        min_window = ""
-        min_length = float('inf')
-        req_chars = len(char_count_t)
-        formed_chars = 0
-        window_char_count = {}
+        formed, required = 0, len(char_count_t)
+        window_count = {}
         
-        for right, char in enumerate(s):
-            window_char_count[char] = window_char_count.get(char, 0) + 1
+        min_left = 0
+        min_length = float('inf')
+        
+        left = 0
+        for right in range(len(s)):
+            char = s[right]
+            window_count[char] = window_count.get(char, 0) + 1
             
-            if char in char_count_t and window_char_count[char] == char_count_t[char]:
-                formed_chars += 1
+            if char in char_count_t and window_count[char] == char_count_t[char]:
+                formed += 1
             
-            while left <= right and formed_chars == req_chars:
+            while formed == required:
                 char = s[left]
                 
                 if right - left + 1 < min_length:
-                    min_window = s[left:right + 1]
                     min_length = right - left + 1
+                    min_left = left
                     
-                window_char_count[char] -= 1
-                if char in char_count_t and window_char_count[char] < char_count_t[char]:
-                    formed_chars -= 1
-                
+                window_count[char] -= 1
+                if char in char_count_t and window_count[char] < char_count_t[char]:
+                    formed -= 1
+                    
                 left += 1
-                
-        return min_window
+        return "" if min_length == float('inf') else s[min_left:min_left + min_length]
     
         
 s = Solution()
