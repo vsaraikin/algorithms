@@ -9,8 +9,7 @@ class Solution:
         formed, required = 0, len(char_count_t)
         window_count = {}
         
-        min_left = 0
-        min_length = float('inf')
+        min_left, min_length = 0, float('inf') # best offset with best limit
         
         left = 0
         for right in range(len(s)):
