@@ -8,7 +8,7 @@
 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/)                                                   | Medium | [Python](./python/567.py) | [C++](./cpp/567.cpp) |
 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)                                           | Medium | [Python](./python/209.py) | [C++](./cpp/209.cpp) |
 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)                                             | Hard   | [Python](./python/76.py)  |                      |
-<!-- | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                                 | Hard   | [Python](./python/239.py) |                      | -->
+| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                                 | Hard   | [Python](./python/239.py) |                      |
 
 ## Theory
 
