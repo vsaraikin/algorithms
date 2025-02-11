@@ -7,4 +7,4 @@
 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | [Python](./python/150.py) |                     |
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)                             | Medium | [Python](./python/739.py) |                     |
 | [Car Fleet](https://leetcode.com/problems/car-fleet/)                                               | Medium | [Python](./python/853.py) |                     |
-<!-- | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)     | Hard   |                           |                     | -->
+| [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)     | Hard   |                           |                     |
