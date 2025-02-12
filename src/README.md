@@ -6,7 +6,7 @@
 - [Two Pointers](./two-pointers/README.md)
 - [Sliding Window](./sliding-window/README.md)
 - [Stack](./stack/README.md)
-- [Binary Search](./binary%20search/README.md)
+- [Binary Search](./binary-search/README.md)
 - [Linked List](./linked%20list/README.md)
 - [Trees](./tree/README.md)
 - [Tries](./tries/README.md)
