@@ -8,12 +8,8 @@ class Solution:
         
         while left <= right:
             k = (left + right) // 2
-            
-            hours = 0
-            for p in piles:
-                hours += math.ceil(p / k)
-            
-            if hours <= h:
+            hours_needed = sum(math.ceil(x / k) for x in piles)
+            if hours_needed <= h:
                 right = k - 1
                 res = min(res, k)
             else:
