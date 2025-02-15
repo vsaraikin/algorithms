@@ -1,20 +1,14 @@
 class Solution:
     def findMin(self, elements: list[int]) -> int:
-        if len(elements) == 2:
-            if abs(elements[1] - elements[0]) > 1:
-                return min(elements[1], elements[0])
+        left, right = 0, len(elements) - 1
+        while left < right:
+            mid = (right + left) // 2
+            if elements[mid] > elements[right]:
+                left = mid + 1
             else:
-                return min(elements)
-        
-        elif len(elements) == 1:
-            return elements[0]
-        
-        else:
-            mid = len(elements) // 2
-            left = elements[:mid]
-            right = elements[mid:]
-            
-            return min(self.findMin(left), self.findMin(right))
+                right = mid
+                
+        return elements[left]
     
     
         
