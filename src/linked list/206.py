@@ -14,7 +14,9 @@ class Solution:
             prev = curr
             curr = next_node
         return prev
-    
+
+
+
 solution = Solution()
 
 some_node = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))))
