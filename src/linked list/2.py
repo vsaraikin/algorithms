@@ -1,10 +1,7 @@
 from typing import Optional
 
-
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
+from node import ListNode
+from linked_list import LinkedList
 
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
@@ -25,4 +22,12 @@ class Solution:
 
 
         return dummy.next
-            
+
+s = Solution()
+result_ll = LinkedList()
+result_ll.head = s.addTwoNumbers(
+    LinkedList([2, 4, 3]).head, LinkedList([5, 6, 4]).head
+)
+assert result_ll.to_list() == LinkedList([7, 0, 8]).to_list()
+
+print("Test passed.")
