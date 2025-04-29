@@ -3,3 +3,7 @@
 /cmake-build-debug
 .vscode
 build
+*/__pycache__
+*.pyc
+*.pyo
+*.pyd
