@@ -33,8 +33,6 @@
 
 A binary search tree is a binary tree where each node has a value greater than all values in its left subtree and less than those in its right subtree. This structure allows for efficient search, insertion, and deletion operations, typically in O(log n) time.$$
 
-$$
-
 
 1. Representation of trees.
 2. Types of Trees.
