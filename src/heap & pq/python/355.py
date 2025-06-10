@@ -1,58 +1,50 @@
 from collections import defaultdict
 import heapq
 
-"""
-from one point it can be solved with heap
-but in fact solution with heap sucks
-"""
-
 class Twitter:
 
     def __init__(self):
         self.timestamp = 0
-        self.tweets = defaultdict(list)
-        self.folowees = defaultdict(set)
-        
+        self.tweets = defaultdict(list)     # userId -> list of (ts, tweetId)
+        self.followees = defaultdict(set)   # userId -> set of users they follow
 
     def postTweet(self, userId: int, tweetId: int) -> None:
-        self.folowees[userId].add(userId) # ensure we'll use our own posts
+        # auto-follow yourself so your own tweets always show up
+        self.followees[userId].add(userId)
         self.timestamp += 1
         self.tweets[userId].append((self.timestamp, tweetId))
-        
 
     def getNewsFeed(self, userId: int) -> list[int]:
-        if userId and not self.folowees:
+        if userId not in self.followees:
             return []
 
         heap = []
-        
-        for fid in self.folowees[userId]:
+        for fid in self.followees[userId]: # push the most recent tweet from each followee
             tl = self.tweets[fid]
             if tl:
                 idx = len(tl) - 1
                 ts, tid = tl[idx]
                 heapq.heappush(heap, (-ts, fid, idx))
-            
+
         res = []
         while heap and len(res) < 10:
             _, fid, idx = heapq.heappop(heap)
-            _, tid = self.tweets[fid][idx]
+            ts, tid = self.tweets[fid][idx]
             res.append(tid)
-            if idx > 0:
+            if idx > 0: # if that user has an older tweet, push it next
                 prev_ts, prev_tid = self.tweets[fid][idx - 1]
                 heapq.heappush(heap, (-prev_ts, fid, idx - 1))
-        
         return res
-        
 
     def follow(self, followerId: int, followeeId: int) -> None:
-        self.folowees[followeeId].add(followerId)
-        self.folowees[followerId].add(followeeId)
-        
+        # auto-follow yourself
+        self.followees[followerId].add(followerId)
+        self.followees[followerId].add(followeeId)
 
     def unfollow(self, followerId: int, followeeId: int) -> None:
-        if followerId != followeeId:
-            self.folowees[followerId].discard(followeeId)
+        # cannot unfollow yourself
+        if followeeId != followerId:
+            self.followees[followerId].discard(followeeId)
         
 
 
