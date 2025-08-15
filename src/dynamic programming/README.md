@@ -2,23 +2,38 @@
 
 > ADD MatrixChain-Product Problem
 
-## Problems
+## 1D Dynamic Programming
 
-| Name/Link                                                                                                      | Attempts | Solved on My Own | Figured out algorithm | LC Premium |
-| -------------------------------------------------------------------------------------------------------------- | -------- | ---------------- | --------------------- | ---------- |
-| [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                                              | 1        | -                | -                     | No         |
-| [Coin Change](https://leetcode.com/problems/coin-change/)                                                      | 1        | -                | -                     | No         |
-| [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)                | 1        | -                | -                     | No         |
-| [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                        | 1        | -                | -                     | No         |
-| [Word Break Problem](https://leetcode.com/problems/word-break/)                                                | 1        | -                | -                     | No         |
-| [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)                                           | 1        | -                | -                     | No         |
-| [House Robber](https://leetcode.com/problems/house-robber/)                                                    | 1        | -                | -                     | No         |
-| [House Robber II](https://leetcode.com/problems/house-robber-ii/)                                              | 1        | -                | -                     | No         |
-| [Decode Ways](https://leetcode.com/problems/decode-ways/)                                                      | 1        | -                | -                     | No         |
-| [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                    | 1        | +                | +                     | No         |
-| [Jump Game](https://leetcode.com/problems/jump-game/)                                                          | -        | -                | -                     | No         |
-| [Edit Distance](https://leetcode.com/problems/edit-distance/)                                                  | -        | -                | -                     | No         |
-| [Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon) | -        | -                | -                     | No         |
+| Problem                                                                                         | Difficulty | Python                    | C++                  |
+| ----------------------------------------------------------------------------------------------- | ---------- | ------------------------- | -------------------- |
+| [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                               | Easy       | [Python](./python/70.py)  | [C++](./cpp/70.cpp)  |
+| [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)             | Easy       | [Python](./python/746.py) | [C++](./cpp/746.cpp) |
+| [House Robber](https://leetcode.com/problems/house-robber/)                                     | Medium     | [Python](./python/198.py) | [C++](./cpp/198.cpp) |
+| [House Robber II](https://leetcode.com/problems/house-robber-ii/)                               | Medium     | [Python](./python/213.py) | [C++](./cpp/213.cpp) |
+| [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)   | Medium     | [Python](./python/5.py)   | [C++](./cpp/5.cpp)   |
+| [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)                 | Medium     | [Python](./python/647.py) | [C++](./cpp/647.cpp) |
+| [Decode Ways](https://leetcode.com/problems/decode-ways/)                                       | Medium     | [Python](./python/91.py)  | [C++](./cpp/91.cpp)  |
+| [Coin Change](https://leetcode.com/problems/coin-change/)                                       | Medium     | [Python](./python/322.py) | [C++](./cpp/322.cpp) |
+| [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)             | Medium     | [Python](./python/152.py) | [C++](./cpp/152.cpp) |
+| [Word Break](https://leetcode.com/problems/word-break/)                                         | Medium     | [Python](./python/139.py) | [C++](./cpp/139.cpp) |
+| [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium     | [Python](./python/300.py) | [C++](./cpp/300.cpp) |
+| [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)         | Medium     | [Python](./python/416.py) | [C++](./cpp/416.cpp) |
+
+## 2D Dynamic Programming
+
+| Problem                                                                                                                       | Difficulty | Python                     | C++                   |
+| ----------------------------------------------------------------------------------------------------------------------------- | ---------- | -------------------------- | --------------------- |
+| [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                   | Medium     | [Python](./python/62.py)   | [C++](./cpp/62.cpp)   |
+| [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                                       | Medium     | [Python](./python/1143.py) | [C++](./cpp/1143.cpp) |
+| [Best Time to Buy And Sell Stock With Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | Medium     | [Python](./python/309.py)  | [C++](./cpp/309.cpp)  |
+| [Coin Change II](https://leetcode.com/problems/coin-change-ii/)                                                               | Medium     | [Python](./python/518.py)  | [C++](./cpp/518.cpp)  |
+| [Target Sum](https://leetcode.com/problems/target-sum/)                                                                       | Medium     | [Python](./python/494.py)  | [C++](./cpp/494.cpp)  |
+| [Interleaving String](https://leetcode.com/problems/interleaving-string/)                                                     | Medium     | [Python](./python/97.py)   | [C++](./cpp/97.cpp)   |
+| [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)                     | Hard       | [Python](./python/329.py)  | [C++](./cpp/329.cpp)  |
+| [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)                                                 | Hard       | [Python](./python/115.py)  | [C++](./cpp/115.cpp)  |
+| [Edit Distance](https://leetcode.com/problems/edit-distance/)                                                                 | Medium     | [Python](./python/72.py)   | [C++](./cpp/72.cpp)   |
+| [Burst Balloons](https://leetcode.com/problems/burst-balloons/)                                                               | Hard       | [Python](./python/312.py)  | [C++](./cpp/312.cpp)  |
+| [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)                                     | Hard       | [Python](./python/10.py)   | [C++](./cpp/10.cpp)   |
 
 ## Approaches
 
