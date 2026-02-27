@@ -2,29 +2,28 @@
 
 ## Neetcode 150
 
-- [Array & Hashing](./array/README.md)
+- [Array & Hashing](./arrays-and-hashing/README.md)
 - [Two Pointers](./two-pointers/README.md)
 - [Sliding Window](./sliding-window/README.md)
 - [Stack](./stack/README.md)
 - [Binary Search](./binary-search/README.md)
-- [Linked List](./linked%20list/README.md)
-- [Trees](./tree/README.md)
+- [Linked List](./linked-list/README.md)
+- [Trees](./trees/README.md)
 - [Tries](./tries/README.md)
-- [Heap / PQ](./heap%20&%20pq/README.md)
+- [Heap / PQ](./heap/README.md)
 - [Backtracking](./backtracking/README.md)
-- [Graph](./graph/README.md)
-- [Advanced Graph](./advanced%20graphs/README.md)
-- [Dynamic Programming](./dynamic%20programming/README.md)
+- [Graphs](./graphs/README.md)
+- [Advanced Graphs](./advanced-graphs/README.md)
+- [Dynamic Programming](./dynamic-programming/README.md)
 - [Greedy](./greedy/README.md)
 - [Intervals](./intervals/README.md)
-- [Math & Geometry](./math/README.md)
-- [Binary](./binary/README.md)
+- [Math & Geometry](./math-and-geometry/README.md)
+- [Bit Manipulation](./bit-manipulation/README.md)
 
 ## Misc
 
-- [Divide & Conquer](./divide%20&%20conquer/README.md)
-- Merkle Tree
-- Trie
+- [Divide & Conquer](./divide-and-conquer/README.md)
+- [Concurrency](./concurrency/)
 
 ## Approach to a problem
 
