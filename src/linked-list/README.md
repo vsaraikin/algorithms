@@ -1,6 +1,6 @@
 # Linked List
 
-![solved: 11](https://img.shields.io/badge/solved-11-blue) ![Easy: 3](https://img.shields.io/badge/Easy-3-brightgreen) ![Medium: 6](https://img.shields.io/badge/Medium-6-yellow) ![Hard: 2](https://img.shields.io/badge/Hard-2-red) ![Python: 11](https://img.shields.io/badge/Python-11-3776AB)
+![solved: 11/11](https://img.shields.io/badge/solved-11/11-blue) ![Easy: 3/3](https://img.shields.io/badge/Easy-3/3-brightgreen) ![Medium: 6/6](https://img.shields.io/badge/Medium-6/6-yellow) ![Hard: 2/2](https://img.shields.io/badge/Hard-2/2-red) ![Python: 11](https://img.shields.io/badge/Python-11-3776AB)
 
 > Node-by-node traversal; common tricks: fast/slow pointers, dummy head, in-place reversal.
 

@@ -1,6 +1,6 @@
 # Binary Search
 
-![solved: 7](https://img.shields.io/badge/solved-7-blue) ![Easy: 1](https://img.shields.io/badge/Easy-1-brightgreen) ![Medium: 5](https://img.shields.io/badge/Medium-5-yellow) ![Hard: 1](https://img.shields.io/badge/Hard-1-red) ![Python: 7](https://img.shields.io/badge/Python-7-3776AB)
+![solved: 7/7](https://img.shields.io/badge/solved-7/7-blue) ![Easy: 1/1](https://img.shields.io/badge/Easy-1/1-brightgreen) ![Medium: 5/5](https://img.shields.io/badge/Medium-5/5-yellow) ![Hard: 1/1](https://img.shields.io/badge/Hard-1/1-red) ![Python: 7](https://img.shields.io/badge/Python-7-3776AB)
 
 > Halve the search space each step — O(log n) over any sorted or monotonic predicate.
 
