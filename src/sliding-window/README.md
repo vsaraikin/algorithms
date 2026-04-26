@@ -1,44 +1,36 @@
 # Sliding Window
 
-| Name                                                                                                                            | Level  | Python                    | C++                  |
-|---------------------------------------------------------------------------------------------------------------------------------|--------|---------------------------|----------------------|
-| [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)                               | Easy   | [Python](./python/121.py) | [C++](./cpp/121.cpp) |
-| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [Python](./python/3.py)   | [C++](./cpp/3.cpp)   |
-| [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)               | Medium | [Python](./python/424.py) | [C++](./cpp/424.cpp) |
-| [Permutation in String](https://leetcode.com/problems/permutation-in-string/)                                                   | Medium | [Python](./python/567.py) | [C++](./cpp/567.cpp) |
-| [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)                                           | Medium | [Python](./python/209.py) | [C++](./cpp/209.cpp) |
-| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)                                             | Hard   | [Python](./python/76.py)  |                      |
-| [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                                 | Hard   | [Python](./python/239.py) |                      |
+![solved: 7](https://img.shields.io/badge/solved-7-blue) ![Easy: 1](https://img.shields.io/badge/Easy-1-brightgreen) ![Medium: 4](https://img.shields.io/badge/Medium-4-yellow) ![Hard: 2](https://img.shields.io/badge/Hard-2-red) ![Python: 7](https://img.shields.io/badge/Python-7-3776AB) ![C%2B%2B: 5](https://img.shields.io/badge/C%2B%2B-5-00599C)
 
-## Theory
+> A movable subrange over an array or string; expand/contract it to satisfy a constraint in O(n).
 
-A sliding window algorithm is a technique used for efficiently processing arrays or lists by maintaining a "window" of elements as it moves through the data. This window is typically defined by two pointers: the left and right pointers.
+## Problems
+
+| # | Problem | Difficulty | Python | C++ |
+| --- | --- | --- | --- | --- |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [solution.py](./121/solution.py) | [solution.cpp](./121/solution.cpp) |
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [solution.py](./3/solution.py) | [solution.cpp](./3/solution.cpp) |
+| 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | [solution.py](./209/solution.py) | [solution.cpp](./209/solution.cpp) |
+| 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | [solution.py](./424/solution.py) | [solution.cpp](./424/solution.cpp) |
+| 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | [solution.py](./567/solution.py) | [solution.cpp](./567/solution.cpp) |
+| 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | [solution.py](./76/solution.py) | — |
+| 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | [solution.py](./239/solution.py) | — |
 
 ## Template
 
 ```python
-def sliding_window_problem(s):
-    # Initialize the left and right pointers
-    left, right = 0, 0
-
-    # Initialize any additional variables or data structures needed
-
-    # Initialize the result or answer variable
+def sliding_window(s):
+    left = 0
     result = []
 
-    while right < len(s):
-        # Expand the window by moving the right pointer to the right
-        # Update any data or variables as needed
+    for right in range(len(s)):
+        # expand window with s[right]
 
-        # Check if the current window satisfies the problem criteria
-        while window_satisfies_criteria:
-            # Update the result or answer based on the current window
+        while window_violates_constraint():
+            # shrink window from the left
+            left += 1
 
-            # Contract the window by moving the left pointer to the right
-            # Update any data or variables as needed
-
-        # Continue expanding the window by moving the right pointer to the right
-        # Update any data or variables as needed
+        # record answer for the current valid window
 
     return result
 ```

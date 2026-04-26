@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Regenerate READMEs from filesystem before each commit and re-stage them
+# if anything changed. Skip when no solution.* / README.md files are
+# touched in the index — sync_readme.py only matters then.
+
+set -euo pipefail
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root"
+
+if ! git diff --cached --name-only --diff-filter=ACMR | grep -qE '(^src/.*/(solution\.(py|cpp))|README\.md$)'; then
+    exit 0
+fi
+
+python3 scripts/sync_readme.py >/dev/null
+
+changed=$(git ls-files -m | grep -E '^src/.*README\.md$' || true)
+if [ -n "$changed" ]; then
+    echo "$changed" | xargs git add
+    echo "pre-commit: re-synced READMEs:"
+    echo "$changed" | sed 's/^/  /'
+fi

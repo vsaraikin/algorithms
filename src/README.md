@@ -1,118 +1,51 @@
-# Exercises and Types of Problems
+# Algorithms & Data Structures
 
-## Neetcode 150
+![problems_solved: 90](https://img.shields.io/badge/problems__solved-90-blue) ![Easy: 24](https://img.shields.io/badge/Easy-24-brightgreen) ![Medium: 58](https://img.shields.io/badge/Medium-58-yellow) ![Hard: 8](https://img.shields.io/badge/Hard-8-red) ![Python: 88](https://img.shields.io/badge/Python-88-3776AB) ![C%2B%2B: 24](https://img.shields.io/badge/C%2B%2B-24-00599C)
 
-- [Array & Hashing](./arrays-and-hashing/README.md)
-- [Two Pointers](./two-pointers/README.md)
-- [Sliding Window](./sliding-window/README.md)
-- [Stack](./stack/README.md)
-- [Binary Search](./binary-search/README.md)
-- [Linked List](./linked-list/README.md)
-- [Trees](./trees/README.md)
-- [Tries](./tries/README.md)
-- [Heap / PQ](./heap/README.md)
-- [Backtracking](./backtracking/README.md)
-- [Graphs](./graphs/README.md)
-- [Advanced Graphs](./advanced-graphs/README.md)
-- [Dynamic Programming](./dynamic-programming/README.md)
-- [Greedy](./greedy/README.md)
-- [Intervals](./intervals/README.md)
-- [Math & Geometry](./math-and-geometry/README.md)
-- [Bit Manipulation](./bit-manipulation/README.md)
+> Solutions to LeetCode problems, grouped by topic — mostly following [NeetCode 150](https://neetcode.io/practice) and [Blind 75](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU).
 
-## Misc
+## Progress
 
-- [Divide & Conquer](./divide-and-conquer/README.md)
-- [Concurrency](./concurrency/)
-
-## Approach to a problem
-
-1. If I cannot solve problem myself in 20 mins, go the hint.
-2. If hint did not help in 10 mins, watch solution.
-3. Go back the day after and resolve problem.
-
-The majority of the tasks are taken from [Blind 75](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU) and [Neetcode 150](https://neetcode.io/practice)
-
-## Theory
-
-### Time complexity
-
-- $O(1)$
-
-    ```python
-    l = [1, 2, 3, 4, 5]
-    for i in l:
-        print(i)
-    ```
-
-- $O(log\space n)$
-
-    ```python
-    # Binary recursive search
-    def binary_search(arr, target):
-        left = 0
-        right = len(arr) - 1
-
-        while left <= right:
-            mid = (left + right) // 2
-
-            if arr[mid] == target:
-                return mid
-            elif arr[mid] < target:
-                left = mid + 1
-            else:
-                right = mid - 1
-
-        return -1
-    ```
-
-- $O(N)$
-
-    ```python
-    l = [1, 2, 3, 4, 5]
-    copy_of_l = l.copy()
-    for i in copy_of_l:
-        print(i)
-    ```
-
-- $O(N^2)$
-
-    ```python
-    n = 5
-    matrix = [[0 for _ in range(n)] for _ in range(n)]
-    for row in matrix:
-        for elem in row:
-            print(elem)
-    ```
-
-### Space Complexity
-
-Typically from the examples in the Internet Time & Space complexity would look the same. E.g. merge sort time & space complexity – $O(n\space logn)$. Below are examples to catch the difference.
-
-### Solution 1: Naive Recursive Approach
-
-```python
-def fib_naive(n):
-    if n <= 1:
-        return n
-    return fib_naive(n - 1) + fib_naive(n - 2)
+```
+NeetCode 150: ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▱▱▱▱▱▱▱▱▱▱▱▱ 90/150
 ```
 
-- Time Complexity: Exponential $(O(2^n))$ as it recalculates the same Fibonacci numbers multiple times.
-- Space Complexity: Linear $(O(n))$ due to the call stack used for recursion.
+## Topics
 
-### Solution 2: Dynamic Programming Approach with Caching
+| Topic | Solved | Easy | Medium | Hard | Python | C++ |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Arrays & Hashing](./arrays-and-hashing/README.md) | 9 | 3 | 6 | — | 9 | 5 |
+| [Two Pointers](./two-pointers/README.md) | 7 | 3 | 3 | 1 | 7 | 6 |
+| [Sliding Window](./sliding-window/README.md) | 7 | 1 | 4 | 2 | 7 | 5 |
+| [Stack](./stack/README.md) | 6 | 1 | 4 | 1 | 6 | 1 |
+| [Binary Search](./binary-search/README.md) | 7 | 1 | 5 | 1 | 7 | — |
+| [Linked List](./linked-list/README.md) | 11 | 3 | 6 | 2 | 11 | — |
+| [Trees](./trees/README.md) | 13 | 6 | 6 | 1 | 13 | — |
+| [Tries](./tries/README.md) | 2 | — | 2 | — | 2 | — |
+| [Heap & Priority Queue](./heap/README.md) | 5 | 2 | 3 | — | 5 | 1 |
+| [Backtracking](./backtracking/README.md) | 3 | — | 3 | — | 3 | 2 |
+| [Graphs](./graphs/README.md) | 4 | — | 4 | — | 4 | — |
+| [Advanced Graphs](./advanced-graphs/README.md) | — | — | — | — | — | — |
+| [Dynamic Programming](./dynamic-programming/README.md) | 14 | 2 | 12 | — | 13 | 3 |
+| [Greedy](./greedy/README.md) | — | — | — | — | — | — |
+| [Intervals](./intervals/README.md) | — | — | — | — | — | — |
+| [Math & Geometry](./math-and-geometry/README.md) | — | — | — | — | — | — |
+| [Bit Manipulation](./bit-manipulation/README.md) | 1 | 1 | — | — | 1 | — |
+| [Divide & Conquer](./divide-and-conquer/README.md) | — | — | — | — | — | — |
+| [Concurrency](./concurrency/README.md) | 1 | 1 | — | — | — | 1 |
 
-```python
-def fib_dynamic(n, cache={}):
-    if n in cache:
-        return cache[n]
-    if n <= 1:
-        return n
-    result = fib_dynamic(n - 1, cache) + fib_dynamic(n - 2, cache)
-    cache[n] = result
-    return result
+## Approach
+
+1. Try to solve the problem alone for 20 minutes.
+2. If stuck, read a hint; give it another 10 minutes.
+3. If still stuck, study the solution — then resolve from scratch the next day.
+
+## Layout
+
+```
+src/<topic>/<leetcode_id>/
+    solution.py
+    solution.cpp  # optional
 ```
 
-- Time Complexity: Linear $(O(n))$ as it computes each Fibonacci number once and stores it in the cache.
-- Space Complexity: Linear $(O(n))$ due to the cache that stores previously calculated Fibonacci numbers.
+Run `python3 scripts/sync_readme.py` after adding a new problem to refresh tables and badges.
