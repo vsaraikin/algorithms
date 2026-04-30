@@ -1,6 +1,6 @@
 # Greedy
 
-![solved: 0/8](https://img.shields.io/badge/solved-0/8-blue) ![Medium: 0/8](https://img.shields.io/badge/Medium-0/8-yellow)
+![solved: 1/8](https://img.shields.io/badge/solved-1/8-blue) ![Medium: 1/8](https://img.shields.io/badge/Medium-1/8-yellow) ![C%2B%2B: 1](https://img.shields.io/badge/C%2B%2B-1-00599C)
 
 > Commit to the locally optimal choice at each step; works when a greedy-choice property holds.
 
@@ -8,7 +8,7 @@
 
 | # | Problem | Difficulty | Python | C++ |
 | --- | --- | --- | --- | --- |
-| 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | — | — |
+| 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | — | [solution.cpp](./45/solution.cpp) |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | — | — |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | Medium | — | — |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | Medium | — | — |
