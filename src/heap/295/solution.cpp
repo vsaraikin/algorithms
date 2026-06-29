@@ -9,9 +9,9 @@ public:
         right.push(left.top());
         left.pop();
 
-        if (right.size() > left.size()) {
+        if (left.size() - right.size() > 1) {
             left.push(right.top());
-            right.pop();
+            right.pop();            
         }
     }
     
@@ -26,10 +26,3 @@ private:
     std::priority_queue<int, std::vector<int>> left; // max-heap
     std::priority_queue<int, std::vector<int>, std::greater<int>> right; // min-heap
 };
-
-/**
- * Your MedianFinder object will be instantiated and called as such:
- * MedianFinder* obj = new MedianFinder();
- * obj->addNum(num);
- * double param_2 = obj->findMedian();
- */
