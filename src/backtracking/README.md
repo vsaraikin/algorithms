@@ -1,6 +1,6 @@
 # Backtracking
 
-![solved: 6/10](https://img.shields.io/badge/solved-6/10-blue) ![Medium: 6/9](https://img.shields.io/badge/Medium-6/9-yellow) ![Hard: 0/1](https://img.shields.io/badge/Hard-0/1-red) ![Python: 3](https://img.shields.io/badge/Python-3-3776AB) ![C%2B%2B: 5](https://img.shields.io/badge/C%2B%2B-5-00599C)
+![solved: 7/10](https://img.shields.io/badge/solved-7/10-blue) ![Medium: 7/9](https://img.shields.io/badge/Medium-7/9-yellow) ![Hard: 0/1](https://img.shields.io/badge/Hard-0/1-red) ![Python: 3](https://img.shields.io/badge/Python-3-3776AB) ![C%2B%2B: 6](https://img.shields.io/badge/C%2B%2B-6-00599C)
 
 > Explore candidates via DFS, undoing each choice on the way back up.
 
@@ -15,6 +15,6 @@
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | — | [solution.cpp](./46/solution.cpp) |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | [solution.py](./78/solution.py) | [solution.cpp](./78/solution.cpp) |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | Medium | — | — |
-| 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | Medium | — | — |
+| 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | Medium | — | [solution.cpp](./90/solution.cpp) |
 | 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | — | — |
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | Hard | — | — |
