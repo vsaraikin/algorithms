@@ -1,6 +1,6 @@
 # Graphs
 
-![solved: 4/13](https://img.shields.io/badge/solved-4/13-blue) ![Medium: 4/12](https://img.shields.io/badge/Medium-4/12-yellow) ![Hard: 0/1](https://img.shields.io/badge/Hard-0/1-red) ![Python: 4](https://img.shields.io/badge/Python-4-3776AB)
+![solved: 4/13](https://img.shields.io/badge/solved-4/13-blue) ![Medium: 4/12](https://img.shields.io/badge/Medium-4/12-yellow) ![Hard: 0/1](https://img.shields.io/badge/Hard-0/1-red) ![Python: 4](https://img.shields.io/badge/Python-4-3776AB) ![C%2B%2B: 1](https://img.shields.io/badge/C%2B%2B-1-00599C)
 
 > BFS, DFS, and Union-Find over explicit or implicit graphs.
 
@@ -8,7 +8,7 @@
 
 | # | Problem | Difficulty | Python | C++ |
 | --- | --- | --- | --- | --- |
-| 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | Medium | [solution.py](./130/solution.py) | — |
+| 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | Medium | [solution.py](./130/solution.py) | [solution.cpp](./130/solution.cpp) |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | Medium | [solution.py](./133/solution.py) | — |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | — | — |
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Medium | [solution.py](./207/solution.py) | — |
