@@ -4,7 +4,6 @@ class Solution:
     def pacificAtlantic(self, heights: list[list[int]]) -> list[list[int]]:
         def dfs(row, col, visited):
             visited[row][col] = True
-            # ->, ⬆, <-, ⬇
             for dr, dc in [(0, 1), (1, 0), (0, -1), (-1, 0)]: # row, col
                 new_row, new_col = row + dr, col + dc
                 if 0 <= new_row < m and 0 <= new_col < n and not visited[new_row][new_col] and heights[new_row][new_col] >= heights[row][col]:
