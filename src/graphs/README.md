@@ -1,6 +1,6 @@
 # Graphs
 
-![solved: 5/13](https://img.shields.io/badge/solved-5/13-blue) ![Medium: 5/12](https://img.shields.io/badge/Medium-5/12-yellow) ![Hard: 0/1](https://img.shields.io/badge/Hard-0/1-red) ![Python: 4](https://img.shields.io/badge/Python-4-3776AB) ![C%2B%2B: 5](https://img.shields.io/badge/C%2B%2B-5-00599C)
+![solved: 8/13](https://img.shields.io/badge/solved-8/13-blue) ![Medium: 8/12](https://img.shields.io/badge/Medium-8/12-yellow) ![Hard: 0/1](https://img.shields.io/badge/Hard-0/1-red) ![Python: 4](https://img.shields.io/badge/Python-4-3776AB) ![C%2B%2B: 8](https://img.shields.io/badge/C%2B%2B-8-00599C)
 
 > BFS, DFS, and Union-Find over explicit or implicit graphs.
 
@@ -17,9 +17,9 @@
 | 286 | [Walls and Gates](https://leetcode.com/problems/walls-and-gates/) | Medium | — | — |
 | 323 | [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | Medium | — | — |
 | 417 | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/) | Medium | [solution.py](./417/solution.py) | [solution.cpp](./417/solution.cpp) |
-| 684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | Medium | — | — |
-| 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | Medium | — | — |
-| 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Medium | — | — |
+| 684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | Medium | — | [solution.cpp](./684/solution.cpp) |
+| 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | Medium | — | [solution.cpp](./695/solution.cpp) |
+| 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Medium | — | [solution.cpp](./994/solution.cpp) |
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | Hard | — | — |
 
 ## Representations
