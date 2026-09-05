@@ -1,6 +1,6 @@
 # Graphs
 
-![solved: 8/13](https://img.shields.io/badge/solved-8/13-blue) ![Medium: 8/12](https://img.shields.io/badge/Medium-8/12-yellow) ![Hard: 0/1](https://img.shields.io/badge/Hard-0/1-red) ![Python: 4](https://img.shields.io/badge/Python-4-3776AB) ![C%2B%2B: 8](https://img.shields.io/badge/C%2B%2B-8-00599C)
+![solved: 9/13](https://img.shields.io/badge/solved-9/13-blue) ![Medium: 8/12](https://img.shields.io/badge/Medium-8/12-yellow) ![Hard: 1/1](https://img.shields.io/badge/Hard-1/1-red) ![Python: 4](https://img.shields.io/badge/Python-4-3776AB) ![C%2B%2B: 9](https://img.shields.io/badge/C%2B%2B-9-00599C)
 
 > BFS, DFS, and Union-Find over explicit or implicit graphs.
 
@@ -20,7 +20,7 @@
 | 684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | Medium | — | [solution.cpp](./684/solution.cpp) |
 | 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | Medium | — | [solution.cpp](./695/solution.cpp) |
 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Medium | — | [solution.cpp](./994/solution.cpp) |
-| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | Hard | — | — |
+| 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | Hard | — | [solution.cpp](./127/solution.cpp) |
 
 ## Representations
 
