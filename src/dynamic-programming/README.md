@@ -1,6 +1,6 @@
 # Dynamic Programming
 
-![solved: 13/24](https://img.shields.io/badge/solved-13/24-blue) ![Easy: 2/2](https://img.shields.io/badge/Easy-2/2-brightgreen) ![Medium: 11/18](https://img.shields.io/badge/Medium-11/18-yellow) ![Hard: 0/4](https://img.shields.io/badge/Hard-0/4-red) ![Python: 13](https://img.shields.io/badge/Python-13-3776AB)
+![solved: 17/25](https://img.shields.io/badge/solved-17/25-blue) ![Easy: 2/2](https://img.shields.io/badge/Easy-2/2-brightgreen) ![Medium: 14/18](https://img.shields.io/badge/Medium-14/18-yellow) ![Hard: 0/4](https://img.shields.io/badge/Hard-0/4-red) ![Python: 13](https://img.shields.io/badge/Python-13-3776AB) ![C%2B%2B: 9](https://img.shields.io/badge/C%2B%2B-9-00599C)
 
 > Solve a problem by combining answers to overlapping subproblems — top-down (memoization) or bottom-up (tabulation).
 
@@ -8,14 +8,14 @@
 
 | # | Problem | Difficulty | Python | C++ |
 | --- | --- | --- | --- | --- |
-| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [solution.py](./70/solution.py) | — |
-| 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | [solution.py](./746/solution.py) | — |
-| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | [solution.py](./5/solution.py) | — |
-| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | — | — |
-| 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | Medium | — | — |
-| 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium | [solution.py](./91/solution.py) | — |
-| 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | Medium | — | — |
-| 139 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | [solution.py](./139/solution.py) | — |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [solution.py](./70/solution.py) | [solution.cpp](./70/solution.cpp) |
+| 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | [solution.py](./746/solution.py) | [solution.cpp](./746/solution.cpp) |
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | [solution.py](./5/solution.py) | [solution.cpp](./5/solution.cpp) |
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | Medium | — | [solution.cpp](./62/solution.cpp) |
+| 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | Medium | — | [solution.cpp](./72/solution.cpp) |
+| 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | Medium | [solution.py](./91/solution.py) | [solution.cpp](./91/solution.cpp) |
+| 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | Medium | — | [solution.cpp](./97/solution.cpp) |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | [solution.py](./139/solution.py) | [solution.cpp](./139/solution.cpp) |
 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Medium | [solution.py](./152/solution.py) | — |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | [solution.py](./198/solution.py) | — |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium | [solution.py](./213/solution.py) | — |
@@ -32,3 +32,4 @@
 | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | Hard | — | — |
 | 312 | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | Hard | — | — |
 | 329 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | Hard | — | — |
+| 95 | Unknown #95 | ? | — | [solution.cpp](./95/solution.cpp) |

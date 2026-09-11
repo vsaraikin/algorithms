@@ -1,6 +1,6 @@
 # Algorithms & Data Structures
 
-![solved: 106/156](https://img.shields.io/badge/solved-106/156-blue) ![Easy: 23/31](https://img.shields.io/badge/Easy-23/31-brightgreen) ![Medium: 72/104](https://img.shields.io/badge/Medium-72/104-yellow) ![Hard: 11/21](https://img.shields.io/badge/Hard-11/21-red) ![Python: 88](https://img.shields.io/badge/Python-88-3776AB) ![C%2B%2B: 83](https://img.shields.io/badge/C%2B%2B-83-00599C)
+![solved: 112/157](https://img.shields.io/badge/solved-112/157-blue) ![Easy: 23/31](https://img.shields.io/badge/Easy-23/31-brightgreen) ![Medium: 75/104](https://img.shields.io/badge/Medium-75/104-yellow) ![Hard: 13/21](https://img.shields.io/badge/Hard-13/21-red) ![Python: 88](https://img.shields.io/badge/Python-88-3776AB) ![C%2B%2B: 94](https://img.shields.io/badge/C%2B%2B-94-00599C)
 
 > LeetCode solutions grouped by topic — full [NeetCode 150](https://neetcode.io/practice) checklist plus a few extras.
 
@@ -19,8 +19,8 @@
 | [Heap & Priority Queue](./heap/README.md) | 7/7 | 2/2 | 4/4 | 1/1 | 5 | 7 |
 | [Backtracking](./backtracking/README.md) | 9/10 | — | 9/9 | 0/1 | 3 | 8 |
 | [Graphs](./graphs/README.md) | 9/13 | — | 8/12 | 1/1 | 4 | 9 |
-| [Advanced Graphs](./advanced-graphs/README.md) | 2/6 | — | 2/3 | 0/3 | — | 2 |
-| [Dynamic Programming](./dynamic-programming/README.md) | 13/24 | 2/2 | 11/18 | 0/4 | 13 | — |
+| [Advanced Graphs](./advanced-graphs/README.md) | 4/6 | — | 2/3 | 2/3 | — | 4 |
+| [Dynamic Programming](./dynamic-programming/README.md) | 17/25 | 2/2 | 14/18 | 0/4 | 13 | 9 |
 | [Greedy](./greedy/README.md) | 1/8 | — | 1/8 | — | — | 1 |
 | [Intervals](./intervals/README.md) | 0/6 | 0/1 | 0/4 | 0/1 | — | — |
 | [Math & Geometry](./math-and-geometry/README.md) | 0/8 | 0/2 | 0/6 | — | — | — |
